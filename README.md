@@ -24,3 +24,8 @@
 - User Authentication
 -  Property Management
 - Payment Processing
+
+# API Security
+- Authentication
+- Authorization
+- Rate Limiting
