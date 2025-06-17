@@ -29,3 +29,7 @@
 - Authentication
 - Authorization
 - Rate Limiting
+
+# CI/CD Pipeline
+- GitHub Actions
+- Docker
