@@ -19,3 +19,8 @@
 # Database Design
 - Indexing: Implement indexes for fast retrieval of frequently accessed data.
 - Caching: Use caching strategies to reduce database load and improve performance.
+
+# Feature Breakdown
+- User Authentication
+-  Property Management
+- Payment Processing
