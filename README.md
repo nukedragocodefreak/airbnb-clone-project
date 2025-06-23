@@ -1,4 +1,8 @@
-# airbnb-clone-project
+# Airbnb-clone-project
+
+
+This project is a simplified clone of Airbnb that allows users to browse, list, and book rental properties.
+
 
 # Team Roles
 - Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
@@ -55,17 +59,17 @@
 - Scrum Master	Facilitates agile processes, removes blockers, organizes meetings
 
 # UI Component Patterns
-1. Navbar
+## Navbar
 - Logo
 - Search bar
 - User navigation
 - Responsive menu
-2. Property Card
+## Property Card
 - Property image
 - Basic details (price, location, rating)
 - Favorite button
 - Responsive layout
-3. Footer
+## Footer
 - Site links
 - Company information
 - Social media links
