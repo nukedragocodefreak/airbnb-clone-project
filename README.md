@@ -33,6 +33,11 @@
 # CI/CD Pipeline
 - GitHub Actions
 - Docker
+- We use GitHub Actions and Docker to automate our CI/CD pipeline.  
+## This ensures faster and more reliable deployments by:
+- Running automated tests on every commit
+- Building Docker containers for consistent environments
+- Deploying new code with minimal manual intervention
 
 # UI/UX Design Planning
 - Property Listing View	Grid display of available properties with filters
