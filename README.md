@@ -30,9 +30,38 @@ This project is a simplified clone of Airbnb that allows users to browse, list, 
 - Payment Processing
 
 # API Security
-- Authentication
-- Authorization
-- Rate Limiting
+## Authentication
+Authentication is the process of verifying the identity of a user or system trying to access the API. It answers the question: Who are you?
+
+Common methods include:
+- API keys: A unique token provided to each user.
+- OAuth tokens: Access tokens issued after a user authorizes your app.
+- JWT (JSON Web Tokens): Self-contained tokens that include user identity and claims.
+- Basic Authentication: Username and password encoded in headers.
+
+The client must prove who they are before accessing protected resources.
+
+## Authorization
+Authorization happens after authentication and determines what an authenticated user or system is allowed to do.
+
+It answers the question: What are you allowed to access or perform?
+
+Examples:
+- User A can read data but cannot delete it.
+- Admin users can access all endpoints.
+- This can be role-based (RBAC), attribute-based (ABAC), or permission-based.
+- Enforced by checking permissions/roles against requested actions.
+
+## Rate Limiting
+Rate limiting controls how many requests a client or user can make to the API within a given time frame.
+Purpose:
+- Prevent abuse or overload on the API servers.
+- Mitigate denial of service (DoS) attacks.
+- Ensure fair usage among users.
+Example:
+- Allow 1000 requests per hour per user/IP.
+- When limits are exceeded, the API responds with an error (e.g., HTTP 429 Too Many Requests).
+- Implemented using tokens, counters, or sliding windows.
 
 # CI/CD Pipeline
 - GitHub Actions
